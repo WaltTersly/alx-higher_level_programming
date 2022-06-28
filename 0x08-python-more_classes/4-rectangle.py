@@ -80,10 +80,6 @@ class Rectangle:
         return ("".join(rect))
         
     def __repr__(self):
-         """
-        provides __repr__ method for object rectangle
-        Returns:+
-            string (str): string to get
-        """
-        return "Rectangle(" + str(self.__width) + ", " + str(self.__height) +\
-            ")"
+	"""repr method to enable create new instance using #"""
+        return "Rectangle(" + str(self.__width) +\
+            ", " + str(self.__height) + ")"
