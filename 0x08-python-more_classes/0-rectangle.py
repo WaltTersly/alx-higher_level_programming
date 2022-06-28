@@ -1,14 +1,8 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
-"""
-@author: Walter chege
-"""
+
+""" A Module with an empty class """
 
 
 class Rectangle:
-    """Empty class Rectangle that defines a rectangle figure
-    Attributes:
-        empty
-    """
-
+    """ An empty class defining a rectangle """
     pass
