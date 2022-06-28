@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-""" A Module with an empty class """
+""" Define rectangle using class Rectangle and
+find it's area and perimeter."""
 
 
 class Rectangle:
@@ -48,11 +49,18 @@ class Rectangle:
         self.__width = value
     
     def area(self):
-        """returns the area of the rectangle"""
+        """
+        Return:
+            The area of the rectangle.
+        """
         return self.__width * self.__height
 
     def perimeter(self):
-        """returns the perimeter of the rectangle"""
+        """
+        Return:
+            The perimeter of the rectangle
+        """
         if self.__width == 0 or self.__height == 0:
             return 0
-        return (self.__width * 2) + (self.__height * 2)
+        else:
+            return 2 * (self.__width + self.__height)
