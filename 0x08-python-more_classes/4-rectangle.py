@@ -80,5 +80,10 @@ class Rectangle:
         return ("".join(rect))
         
     def __repr__(self):
-        """returns a string representation of the rectangle for reproduction"""
-        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+         """
+        provides __repr__ method for object rectangle
+        Returns:+
+            string (str): string to get
+        """
+        return "Rectangle(" + str(self.__width) + ", " + str(self.__height) +\
+            ")"
