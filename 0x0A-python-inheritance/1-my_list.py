@@ -12,4 +12,4 @@ class MyList(list):
 
         new_list = self[:]
         new_list.sort()
-        print("{}".format(new_list))
+        print(new_list)
